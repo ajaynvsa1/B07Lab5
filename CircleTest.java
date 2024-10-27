@@ -1,5 +1,5 @@
 package lab4;
-public class Test_circle{
+public class CircleTest{
 @Test
 public void test_perimeter(){
     Point p = new Point(0,0);
