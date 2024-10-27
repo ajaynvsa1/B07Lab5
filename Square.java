@@ -9,7 +9,7 @@ public class Square {
 	public Square(Point one, Point two, Point three, Point four) {
 		
 		// Checking that a square is entered (equal side lengths).
-		if(one.distance(two) == two.distance(three) && two.distance(three) == three.distance(four) && three.distance(four) == four.distance(one)) {
+		if(one.distance(three) == two.distance(four) && one.distance(two) == two.distance(three) && two.distance(three) == three.distance(four) && three.distance(four) == four.distance(one)) {
 			this.A = one;
 			this.B = two;
 			this.C = three;
