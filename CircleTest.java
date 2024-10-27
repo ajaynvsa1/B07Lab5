@@ -1,4 +1,7 @@
 package lab4;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 public class CircleTest{
 @Test
 public void test_perimeter(){
