@@ -33,4 +33,5 @@ public void test_contains_3(){
     Point p = new Point(0,0);
     Circle c = new Circle(p,2);
     assertFalse(c.contains(new Point(3,3)));
+ }
 }
