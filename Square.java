@@ -1,3 +1,4 @@
+package lab4;
 public class Square {
 	
 	Point A;
