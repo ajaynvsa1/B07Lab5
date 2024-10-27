@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class sqtesting {
 	
 	@Test
-    void testAreaSquare() {
+    	void testAreaSquare() {
         Point p11 = new Point(2.0, 0.0);
         Point p22 = new Point(2.0, 2.0);
         Point p33 = new Point(0.0, 2.0);
